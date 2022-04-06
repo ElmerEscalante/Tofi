@@ -94,7 +94,7 @@
         android:layout_width="49dp"
         android:layout_height="44dp"
         android:background="@drawable/actividades"
-        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="652dp" />
 
     <Button
