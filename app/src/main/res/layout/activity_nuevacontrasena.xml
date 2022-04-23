@@ -24,61 +24,68 @@
         app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/regresar" />
 
+
     <TextView
         android:id="@+id/titulo"
-        android:layout_width="341dp"
-        android:layout_height="84dp"
-        android:text="¿Perdiste tu
-        contraseña?"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:text="!Hola, Hannah23¡"
         android:textColor="@color/MoradoClaro"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.309"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="76dp" />
-
-    <TextView
-        android:id="@+id/parrafo"
-        android:layout_width="321dp"
-        android:layout_height="47dp"
-        android:text="!No te preocupes¡ Escribe tu usuario para recuperarla"
-        android:textColor="@color/MoradoClaro"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="176dp" />
+        tools:layout_editor_absoluteY="88dp" />
 
     <EditText
-        android:id="@+id/Usuario"
+        android:id="@+id/repetirpassword"
         android:layout_width="256dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
-
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
         android:backgroundTint="#E0E6E8"
         android:backgroundTintMode="add"
-        android:hint="@string/prompt_user"
+        android:hint="@string/prompt_password"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
-        android:text="Usuario"
+        android:text="Repetir contraseña"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/nuevapassword"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#E0E6E8"
+        android:backgroundTintMode="add"
+        android:hint="@string/prompt_password"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="Nueva contraseña"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
 
     <Button
-        android:id="@+id/checar"
+        android:id="@+id/restablecer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#9F673AB7"
-        android:text="Checar"
+        android:text="Restablecer"
         android:textColor="#F3EFEF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
